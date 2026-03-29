@@ -17,21 +17,6 @@ fun main() {
 
     //Research on inheritance in kotlin. Come up with an example of the program
     //Inheritance allows one class to acquire functions from another class
-    open class Animal {
-    fun eat() {
-        println("This animal eats food")
-    }
-}
+     
 
-class Dog : Animal() {
-    fun bark() {
-        println("Dog barks")
-    }
-}
-
-fun main() {
-    val d = Dog()
-    d.eat()   
-    d.bark()  
-}
 }
